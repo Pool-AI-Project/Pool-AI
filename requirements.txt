@@ -1,0 +1,10 @@
+pygame
+pymunk
+tensorflow
+gymnasium
+ale-py
+moviepy
+numpy
+scipy
+matplotlib
+pandas
