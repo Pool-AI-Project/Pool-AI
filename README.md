@@ -10,3 +10,4 @@ https://arxiv.org/abs/1707.06347
 
 Game Tutorial:
 https://www.youtube.com/watch?v=txcOqDhrwBo
+https://github.com/russs123/pool_tutorial
