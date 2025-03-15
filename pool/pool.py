@@ -1,3 +1,6 @@
+# Original Author:
+# https://www.youtube.com/watch?v=txcOqDhrwBo
+# https://github.com/russs123/pool_tutorial
 import pygame
 import pymunk
 import pymunk.pygame_util
