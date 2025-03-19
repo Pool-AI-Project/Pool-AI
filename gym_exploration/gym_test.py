@@ -5,6 +5,13 @@ from datetime import datetime
 
 gym.register_envs(ale_py)
 
+env = gym.make('', render_mode='rgb_array')
+# the methods the object needs 
+# 
+# 1. observation = env.reset() - reset and returns observation (information about the state)
+# 2. observation (state), reward (float), doneflag (boolean - game over we make it true) env.step(action) - action = [stickangle (con), power(con), spin_type(des)] returns next observation (s', r, d) every frame
+#  https://gymnasium.farama.org/
+
 def play_one_episode(env, episode_number):    
     # our initial state s(0)
     obs, _ = env.reset()
@@ -47,3 +54,4 @@ if __name__ == "__main__":
         
 
     env.close()
+
