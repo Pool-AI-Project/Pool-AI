@@ -277,7 +277,7 @@ def train(env):
 
     num_episodes = 1000
     # num_episodes = 3
-    update_period_timestep = 50
+    update_period_timestep = 1
     total_time_steps = 0
 
     max_num_steps_per_episode = 4000
